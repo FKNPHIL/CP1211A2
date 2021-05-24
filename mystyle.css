@@ -13,3 +13,22 @@ td, th {
 tr:nth-child(even) {
     background-color: #dddddd;
   }
+
+h3 {
+  color:coral;
+}
+
+.hardware {
+  color:darkgreen;
+}
+
+#p1 {
+  color:deeppink;
+}
+
+#p2{
+  color:yellow;
+}
+div h5 {
+  color:lime;
+}
