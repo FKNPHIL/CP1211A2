@@ -69,9 +69,9 @@ div h5 {
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  position: fixed;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
   top: 0;
-  width: 100%;
 }
 
 .listBar li {
