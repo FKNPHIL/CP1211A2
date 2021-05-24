@@ -27,8 +27,20 @@ h3 {
 }
 
 #p2{
-  color:yellow;
+  font-family: "Times New Roman", Times, serif;
+  font-weight:600;
+  font-style: italic;
+  font: size 150%;
+  color:skyblue
 }
 div h5 {
   color:lime;
+}
+
+#twitch {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
 }
