@@ -34,16 +34,63 @@ h3 {
   color:skyblue
 }
 div h5 {
-  color:lime;
+  color:yellow;
 }
 .join {
-  background-color: slategray;
+  text-align: center;
+  background-image: url("stars6.png");
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
 }
 
 #twitch {
-  background-color: lightgrey;
+  font-weight:900;
+  color:black;
+  background-color: lightgray;
   width: 300px;
   border: 15px solid purple;
   padding: 50px;
   margin: 20px;
+}
+
+#img1 {
+  float: right;
+}
+
+#img2 {
+  float: left;
+}
+
+.listBar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.listBar li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+.listBar li:last-child {
+  border-right: none;
+}
+
+.listBar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.listBar li a:hover {
+  background-color: greenyellow;
 }
