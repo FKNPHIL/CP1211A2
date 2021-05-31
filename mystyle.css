@@ -1,17 +1,17 @@
-.header {
-  grid-area: header;
-  background-color: #f1f1f1;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-}
-
 .grid-container {
   display: grid;
   grid-template-areas:
     'header header header header header header'
     'left left middle middle right right'
     'footer footer footer footer footer footer';
+}
+
+.header {
+  grid-area: header;
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
 }
 
 .left,
@@ -23,17 +23,16 @@
 
 .left {
   grid-area: left;
-  width: 640px;
+
 }
 
 .middle {
   grid-area: middle;
-  width: 1280px;
+
 }
 
 .right {
   grid-area: right;
-  width: auto;
 }
 
 .footer {
@@ -141,4 +140,9 @@ div h5 {
 
 .listBar li a:hover {
   background-color: greenyellow;
+}
+
+@media screen and (min-width: 480px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
 }
