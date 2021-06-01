@@ -142,7 +142,7 @@ div h5 {
   background-color: greenyellow;
 }
 
-@media screen and (min-width: 480px) {
-  #leftsidebar {width: 200px; float: left;}
-  #main {margin-left: 216px;}
+@media screen and (min-width: 600px) {
+  .left {width: 600px; float: left;}
+  .middle {margin-left: 620px;}
 }
